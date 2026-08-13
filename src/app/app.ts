@@ -9,10 +9,11 @@ import { Experience } from './features/experience/experience';
 import { Education } from './features/education/education';
 import { Contact } from './features/contact/contact';
 import { Projects } from './features/projects/projects';
+import { Certifications } from './features/certifications/certifications';
 
 @Component({
   selector: 'app-root',
-  imports: [Header,Sidebar,Home,About,Skills,Experience,Projects,Education,Contact],
+  imports: [Header,Sidebar,Home,About,Skills,Experience,Projects,Education,Certifications,Contact],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
