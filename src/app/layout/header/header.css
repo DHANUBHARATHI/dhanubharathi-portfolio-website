@@ -1,0 +1,71 @@
+.header-container {
+    height: 64px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 24px;
+
+    background-color: #0f172a;
+
+    border-bottom: 1px solid #334155;
+}
+
+.header1 {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.header1 button {
+    width: 38px;
+    height: 38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: transparent;
+    color: #f8fafc;
+
+    cursor: pointer;
+}
+
+.header1 button:hover {
+    background-color: #1e293b;
+}
+
+.header1 i {
+    font-size: 22px;
+}
+
+.header1 span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.resume-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    padding: 8px 16px;
+
+    border-radius: 6px;
+
+    background-color: #38bdf8;
+    color: #0f172a;
+
+    text-decoration: none;
+    font-weight: 600;
+
+    transition: 0.2s ease;
+}
+
+.resume-btn:hover {
+    transform: translateY(-2px);
+}

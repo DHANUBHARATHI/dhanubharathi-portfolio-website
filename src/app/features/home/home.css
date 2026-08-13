@@ -1,0 +1,123 @@
+.home-container {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 60px;
+
+    gap: 60px;
+}
+
+
+/* Left Content */
+
+.home-content {
+    flex: 1;
+    max-width: 700px;
+}
+
+.greeting {
+    font-size: 18px;
+
+    color: #94a3b8;
+
+    margin-bottom: 8px;
+}
+
+
+.home-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+
+    color: #f8fafc;
+
+    margin-bottom: 10px;
+}
+
+
+.home-content h2 {
+    font-size: 28px;
+    font-weight: 500;
+
+    color: #38bdf8;
+
+    margin-bottom: 24px;
+}
+
+
+.description {
+    font-size: 18px;
+
+    color: #cbd5e1;
+
+    line-height: 1.7;
+
+    margin-bottom: 30px;
+}
+
+
+/* Photo */
+
+.home-photo {
+    width: 280px;
+    height: 280px;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+
+    overflow: hidden;
+
+    border: 4px solid #334155;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+.home-photo img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+/* Resume */
+
+.home-actions {
+    display: flex;
+
+    gap: 1rem;
+}
+
+
+.resume-btn {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 0.5rem;
+
+    padding: 8px 16px;
+
+    border-radius: 6px;
+
+    background-color: #38bdf8;
+
+    color: #0f172a;
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+    transition: 0.2s ease;
+}
+
+
+.resume-btn:hover {
+    transform: translateY(-2px);
+}

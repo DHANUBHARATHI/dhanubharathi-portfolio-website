@@ -1,0 +1,183 @@
+.experience-section {
+    padding: 60px 40px;
+}
+
+
+/* Section Heading */
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+
+    color: #f8fafc;
+
+    margin-bottom: 8px;
+}
+
+.section-title p {
+    color: #94a3b8;
+
+    font-size: 16px;
+}
+
+
+/* Experience Container */
+
+.experience-container {
+    max-width: 900px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 25px;
+}
+
+
+/* Experience Card */
+
+.experience-card {
+    display: flex;
+
+    gap: 20px;
+
+    padding: 28px;
+
+    background-color: #1e293b;
+
+    border: 1px solid #334155;
+
+    border-radius: 12px;
+
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+
+/* Hover */
+
+.experience-card:hover {
+    transform: translateY(-4px);
+
+    border-color: #38bdf8;
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Company Icon */
+
+.experience-icon {
+    width: 48px;
+    height: 48px;
+
+    min-width: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+
+    background-color: #172554;
+
+    color: #38bdf8;
+}
+
+.experience-icon i {
+    font-size: 22px;
+}
+
+
+/* Content */
+
+.experience-content {
+    flex: 1;
+}
+
+
+/* Header */
+
+.experience-header {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: flex-start;
+
+    gap: 20px;
+}
+
+
+/* Position */
+
+.experience-header h3 {
+    margin: 0 0 6px;
+
+    font-size: 22px;
+    font-weight: 600;
+
+    color: #f8fafc;
+}
+
+
+/* Company */
+
+.experience-header h4 {
+    margin: 0;
+
+    font-size: 17px;
+    font-weight: 500;
+
+    color: #38bdf8;
+}
+
+
+/* Duration */
+
+.duration {
+    padding: 7px 14px;
+
+    border-radius: 20px;
+
+    background-color: #172554;
+
+    border: 1px solid #1e3a8a;
+
+    color: #93c5fd;
+
+    font-size: 13px;
+
+    white-space: nowrap;
+}
+
+
+/* Client */
+
+.client {
+    margin: 12px 0 0;
+
+    color: #94a3b8;
+
+    font-size: 14px;
+}
+
+
+/* Description */
+
+.experience-summary {
+    margin: 15px 0 0;
+
+    color: #cbd5e1;
+
+    line-height: 1.6;
+
+    font-size: 15px;
+}

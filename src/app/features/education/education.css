@@ -1,0 +1,93 @@
+.education-section {
+    padding: 60px 40px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.section-title p {
+    color: #666;
+    font-size: 16px;
+}
+
+.education-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.education-card {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    padding: 30px;
+
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+
+    transition: transform 0.2s ease,
+                box-shadow 0.2s ease;
+}
+
+.education-card:hover {
+    transform: translateY(-4px);
+
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.education-icon {
+    width: 60px;
+    height: 60px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background-color: #f1f5f9;
+    color: black;
+}
+
+.education-icon i {
+    font-size: 28px;
+}
+
+.education-content h3 {
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.education-content h4 {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.college {
+    margin-bottom: 6px;
+    color: #555;
+}
+
+.duration {
+    margin-bottom: 6px;
+    color: #777;
+    font-size: 14px;
+}
+
+.cgpa{
+    margin: 0;
+    color: #777;
+    font-size: 14px;
+}

@@ -1,0 +1,26 @@
+<div class="container-fluid p-0">
+
+    <app-header (menuClicked)="toggleSidebar()"></app-header>
+
+    <div class="main-layout">
+
+        <app-sidebar
+            [sidebarOpen]="sidebarOpen"
+            [class.sidebar-closed]="!sidebarOpen">
+        </app-sidebar>
+
+        <div class="content-wrapper">
+
+            <app-home></app-home>
+            <app-about></app-about>
+            <app-skills></app-skills>
+            <app-experience></app-experience>
+            <app-projects></app-projects>
+            <app-education></app-education>
+            <app-contact></app-contact>
+
+        </div>
+
+    </div>
+
+</div>

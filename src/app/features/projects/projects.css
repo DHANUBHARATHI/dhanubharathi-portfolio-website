@@ -1,0 +1,200 @@
+.projects-section {
+    padding: 60px 40px;
+}
+
+
+/* Section Heading */
+
+.section-title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 8px;
+
+    color: #f8fafc;
+}
+
+.section-title p {
+    color: #94a3b8;
+    font-size: 16px;
+}
+
+
+/* Projects Grid */
+
+.projects-container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 25px;
+}
+
+
+/* Project Card */
+
+.project-card {
+    padding: 28px;
+
+    background-color: #1e293b;
+
+    border: 1px solid #334155;
+
+    border-radius: 10px;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease;
+}
+
+
+/* Hover */
+
+.project-card:hover {
+    transform: translateY(-5px);
+
+    border-color: #475569;
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Project Icon */
+
+.project-icon {
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 8px;
+
+    background-color: #172554;
+
+    color: #38bdf8;
+
+    margin-bottom: 18px;
+}
+
+.project-icon i {
+    font-size: 22px;
+}
+
+
+/* Project Title */
+
+.project-card h3 {
+    font-size: 22px;
+    font-weight: 600;
+
+    color: #f8fafc;
+
+    margin-bottom: 12px;
+}
+
+
+/* Project Description */
+
+.project-card p {
+    color: #cbd5e1;
+
+    line-height: 1.6;
+
+    margin-bottom: 0;
+}
+
+
+/* Feature Tags */
+
+.project-features {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin-top: 18px;
+}
+
+.project-features span {
+    padding: 6px 12px;
+
+    border-radius: 15px;
+
+    background-color: #e2e8f0;
+
+    color: #0f172a;
+
+    border: none;
+
+    font-size: 13px;
+}
+
+
+/* Responsibilities */
+
+.project-responsibilities {
+    margin-top: 20px;
+
+    padding-left: 20px;
+
+    color: #cbd5e1;
+}
+
+.project-responsibilities li {
+    margin-bottom: 8px;
+
+    line-height: 1.5;
+
+    font-size: 14px;
+}
+
+
+/* Technology Section */
+
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin-top: 20px;
+
+    padding-top: 18px;
+
+    border-top: 1px solid #334155;
+}
+
+
+/* Technology Badge */
+
+.project-tech span {
+    padding: 6px 12px;
+
+    border-radius: 15px;
+
+    background-color: #e2e8f0;
+
+    color: #0f172a;
+
+    border: none;
+
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+/* Technology Badge Hover */
+
+.project-tech span:hover {
+    background-color: #cbd5e1;
+}
